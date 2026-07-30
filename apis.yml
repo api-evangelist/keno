@@ -1,7 +1,14 @@
 aid: keno
 name: Keno
-description: Keno is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Keno is an on-demand, doorstep car-wash and vehicle-care mobile application
+  operating in the United Arab Emirates, billing itself as the "No.1 car wash app in the
+  UAE". Customers download the iOS or Android app, add their vehicle, select from wash,
+  maintenance, and detailing services (priced by vehicle class from bike to luxury SUV),
+  and a mobile team of "ninjas" arrives at the customer's location to perform the work
+  with a choice of payment methods. Keno is a 500 Global portfolio company. It is a
+  consumer mobile application with no public developer API, OpenAPI, SDK, CLI, or
+  developer portal; this profile captures its public identity and domain-security posture
+  for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/keno/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.keno.ae/wp-content/uploads/2020/09/cropped-pin-192x192.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Automotive
+- Car Wash
+- Vehicle Care
+- Mobile App
+- On-Demand
+- Consumer
+- UAE
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +49,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://keno.ae
+  url: https://www.keno.ae/
+- type: iOS
+  url: https://apps.apple.com/ae/app/keno-car-care/id1127345897
+- type: Facebook
+  url: https://www.facebook.com/KenoDXB/
+- type: Instagram
+  url: https://www.instagram.com/keno.ae/
+- type: DomainSecurity
+  url: security/keno-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
