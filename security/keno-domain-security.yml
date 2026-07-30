@@ -1,0 +1,15 @@
+generated: '2026-07-19'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: keno.ae
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Nov 13 11:41:17 2026 GMT
+  hsts: null
+domains:
+- domain: keno.ae
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
